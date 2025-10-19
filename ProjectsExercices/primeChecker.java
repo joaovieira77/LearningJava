@@ -1,3 +1,4 @@
+package ProjectsExercices;
 public class primeChecker {
     public static boolean isPrime(int n) {
         if (n <= 1) return false;

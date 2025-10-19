@@ -1,3 +1,4 @@
+package ProjectsExercices;
 import java.util.*;
 public class anagrams {
       public static boolean areAnagrams(String a, String b) {
