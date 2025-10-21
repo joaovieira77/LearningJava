@@ -1,4 +1,3 @@
-package ProjectsExercices;
 public class findword {
     public static String findNthWord(String input, int n) {
         String[] words = input.split(" ");

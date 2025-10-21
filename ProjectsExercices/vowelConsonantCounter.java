@@ -1,4 +1,3 @@
-package ProjectsExercices;
 public class vowelConsonantCounter {
     public static String count(String input) {
         int vowels = 0, consonants = 0;

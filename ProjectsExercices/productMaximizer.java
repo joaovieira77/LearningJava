@@ -1,4 +1,3 @@
-package ProjectsExercices;
 public class productMaximizer {
     public static String maxProduct(int[] arr) {
         int max = Integer.MIN_VALUE, a = 0, b = 0;

@@ -1,4 +1,3 @@
-package ProjectsExercices;
 import java.util.Scanner;
 public class temperatureConversion {
     public static void main(String[] args) {

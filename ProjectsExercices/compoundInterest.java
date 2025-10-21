@@ -1,4 +1,4 @@
-package ProjectsExercices;
+
 import java.util.Scanner;
 public class compoundInterest {
     

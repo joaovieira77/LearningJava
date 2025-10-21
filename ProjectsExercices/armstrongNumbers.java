@@ -1,4 +1,4 @@
-package ProjectsExercices;
+
 
 
 public class armstrongNumbers {

@@ -1,4 +1,4 @@
-package ProjectsExercices;
+
 import java.util.Scanner;
 public class numberGuessing {
     public static void main(String[] args) {

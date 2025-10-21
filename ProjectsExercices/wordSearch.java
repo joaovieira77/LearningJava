@@ -1,4 +1,4 @@
-package ProjectsExercices;
+
 import java.util.regex.*;
 public class wordSearch {
     public static boolean startsWithWord(String input, String word) {

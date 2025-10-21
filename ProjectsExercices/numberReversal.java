@@ -1,4 +1,4 @@
-package ProjectsExercices;
+
 public class numberReversal {
     public static String reverse(String input) {
         if (input.contains(".")) {
