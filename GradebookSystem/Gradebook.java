@@ -7,7 +7,7 @@ public class Gradebook {
 
     public void addStudent(Student student) {
         students.add(student);
-        System.out.println("✅ Student added: " + student.getName());
+        System.out.println("Student added: " + student.getName());
     }
 
     public Student findStudentById(String id) {
@@ -19,9 +19,9 @@ public class Gradebook {
 
     public void displayAllStudents() {
         if (students.isEmpty()) {
-            System.out.println("📭 No students enrolled.");
+            System.out.println("No students enrolled.");
         } else {
-            System.out.println("🎓 Student List:");
+            System.out.println("Student List:");
             for (Student s : students) {
                 System.out.println("- " + s.getName() + " (ID: " + s.getId() + ")");
             }
