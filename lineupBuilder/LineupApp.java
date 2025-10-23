@@ -22,13 +22,15 @@ public class LineupApp {
 
         System.out.print("Choose formation (4-3-3, 4-4-2, 3-5-2, 4-2-3-1, 3-4-3, 5-3-2, 4-1-4-1): ");
         String formation = scanner.nextLine();
+        FormationPreview.display(formation);
+
 
         Team team = new Team(name, formation);
         List<String> positions = FormationFactory.getPositions(formation);
 
         System.out.println("Enter 11 players for " + name + ":");
         for (String pos : positions) {
-            System.out.print("→ " + pos + ": ");
+            System.out.print("" + pos + ": ");
             String playerName = scanner.nextLine();
             team.addPlayer(new Player(playerName, pos));
         }
